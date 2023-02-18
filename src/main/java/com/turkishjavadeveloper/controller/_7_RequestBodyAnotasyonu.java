@@ -27,6 +27,7 @@ public class _7_RequestBodyAnotasyonu {
         System.out.println("All users saved");
         users.forEach(user -> user.setPassword(""));
         return users;
+        
     }
 
 }
