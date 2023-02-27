@@ -1,4 +1,4 @@
-package com.turkishjavadeveloper.controller;
+package com.turkishjavadeveloper.temel_konular.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

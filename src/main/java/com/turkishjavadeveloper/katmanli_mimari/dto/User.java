@@ -1,6 +1,6 @@
-package com.turkishjavadeveloper.dto;
+package com.turkishjavadeveloper.katmanli_mimari.dto;
 
-public class _10_User {
+public class User {
 
     private Long userId;
     private String firstName;

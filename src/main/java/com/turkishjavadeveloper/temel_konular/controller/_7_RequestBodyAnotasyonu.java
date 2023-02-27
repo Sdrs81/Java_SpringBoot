@@ -1,4 +1,4 @@
-package com.turkishjavadeveloper.controller;
+package com.turkishjavadeveloper.temel_konular.controller;
 
 import com.turkishjavadeveloper.model.User;
 import org.springframework.web.bind.annotation.PostMapping;
