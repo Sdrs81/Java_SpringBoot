@@ -1,8 +1,7 @@
-package com.turkishjavadeveloper.temel_konular.controller;
+package com.turkishjavadeveloper.ch01_temel_konular.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController

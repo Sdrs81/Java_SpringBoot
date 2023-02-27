@@ -1,4 +1,4 @@
-package com.turkishjavadeveloper.model;
+package com.turkishjavadeveloper.ch01_temel_konular.model;
 
 public class User {
 

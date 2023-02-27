@@ -1,9 +1,8 @@
-package com.turkishjavadeveloper.temel_konular.controller;
+package com.turkishjavadeveloper.ch01_temel_konular.controller;
 
-import com.turkishjavadeveloper.model.User;
+import com.turkishjavadeveloper.ch01_temel_konular.model.User;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;

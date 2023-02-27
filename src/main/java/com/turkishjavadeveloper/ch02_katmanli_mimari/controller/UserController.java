@@ -1,7 +1,7 @@
-package com.turkishjavadeveloper.katmanli_mimari.controller;
+package com.turkishjavadeveloper.ch02_katmanli_mimari.controller;
 
-import com.turkishjavadeveloper.katmanli_mimari.dto.User;
-import com.turkishjavadeveloper.katmanli_mimari.service.UserService;
+import com.turkishjavadeveloper.ch02_katmanli_mimari.dto.User;
+import com.turkishjavadeveloper.ch02_katmanli_mimari.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

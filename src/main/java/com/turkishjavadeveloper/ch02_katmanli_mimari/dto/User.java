@@ -1,4 +1,4 @@
-package com.turkishjavadeveloper.katmanli_mimari.dto;
+package com.turkishjavadeveloper.ch02_katmanli_mimari.dto;
 
 public class User {
 
