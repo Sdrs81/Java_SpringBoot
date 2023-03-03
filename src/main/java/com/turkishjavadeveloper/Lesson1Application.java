@@ -1,11 +1,19 @@
 package com.turkishjavadeveloper;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 // Asıl çalışan program kısmı burası
 
 @SpringBootApplication
+
+//@ComponentScan(basePackages = "branch")  //ch10_1
+//@ComponentScan(basePackages = {"branch", "com.turkishjavadeveloper"})  //ch10_1
+//@ComponentScan(basePackageClasses = MyComponent.class)  //ch10_1 , yukarıdaki gibi {} arasında birden çok verilebilir
+
+@ComponentScan(useDefaultFilters = false)  //ch10_2
 public class Lesson1Application {
 
 	public static void main(String[] args) {
@@ -28,4 +36,18 @@ public class Lesson1Application {
 		return new WordFileReader();
 	}*/
 
+	/*
+	//ch10_1
+	@Autowired
+	private MyComponent myComponent;
+
+	@Autowired
+	private MyService myService;
+	*/
+
+	/*
+	//ch10_2
+	@Autowired
+	private MyService myService;
+	*/
 }
