@@ -13,7 +13,8 @@ import org.springframework.context.annotation.ComponentScan;
 //@ComponentScan(basePackages = {"branch", "com.turkishjavadeveloper"})  //ch10_1
 //@ComponentScan(basePackageClasses = MyComponent.class)  //ch10_1 , yukarıdaki gibi {} arasında birden çok verilebilir
 
-@ComponentScan(useDefaultFilters = false)  //ch10_2
+//@ComponentScan(useDefaultFilters = false)  //ch10_2
+//@ComponentScan(useDefaultFilters = false, basePackages = "com.turkishjavadeveloper.branch")   //ch10_5
 public class Lesson1Application {
 
 	public static void main(String[] args) {
