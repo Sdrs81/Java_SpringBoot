@@ -1,4 +1,4 @@
-package com.turkishjavadeveloper.ch10_componentScan_3.branch;
+package com.turkishjavadeveloper.ch10_componentScan_3_4.branch;
 
 @TurkishJavaDeveloper
 public class MyClass1 {
